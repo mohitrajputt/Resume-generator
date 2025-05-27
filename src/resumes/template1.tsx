@@ -11,7 +11,13 @@ const Template1 = () => {
           </a>
         </div>
         <div className={styles.nameContent}>
-          <div className={styles.sectionTitle}>Software Developement Engineering</div>
+          <div
+            className={styles.sectionTitle}
+            contentEditable={true}
+            suppressContentEditableWarning={true}
+          >
+            Software Developement Engineering
+          </div>
           <div className={`${styles.listTitle} ${styles.flex}`}>
             <p>Gudgaon, India</p>
             <p>
