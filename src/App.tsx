@@ -16,16 +16,24 @@ function App() {
     html2pdf().set(opt).from(element).save();
   };
   return (
-    <>
-      <div className="container">
-        <div id="resume" className="resume-template">
-          <Template1 />
+    <div className="app">
+      <div className="leftCont">
+        <div className="container">
+          <div id="resume" className="resume-template">
+            <Template1 />
+          </div>
+          <button className="download-btn" onClick={downloadPDF}>
+            Download
+          </button>
         </div>
-        <button className="download-btn" onClick={downloadPDF}>
-          Download
-        </button>
       </div>
-    </>
+      <div className="rightCont">
+        <div className="previewCont">
+          <img src="./template1.jpg" />
+          Template- 1
+        </div>
+      </div>
+    </div>
   );
 }
 
