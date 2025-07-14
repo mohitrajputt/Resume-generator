@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  /* padding: 20px; */
+  text-align: center;
+  box-sizing: content-box;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftCont {
+  width: 85%;
+}
+.rightCont {
+  width: 13%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.rightCont .activeTemp {
+  border: 3px solid rgb(99, 89, 89);
+}
+
+.rightCont .previewCont {
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.previewCont img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.download-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.resume-template {
+  width: 8.27in; /* A4 width */
+  margin: auto;
+  box-sizing: border-box;
+  width: 794px;
+  height: 1123px;
+  height: 297mm; /* A4 page height */
+  overflow: hidden;
+  padding: 30px 40px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: "Arial", sans-serif;
+  border-left: 5px solid maroon;
+  page-break-inside: avoid;
+}
+
+.border-none {
+  border: none;
+}
+
+.resume-template > h1 {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.resume-template > h2 {
+  font-size: 20px;
+  color: gray;
+  margin-top: 4px;
+}
+
+.resume-template > h3 {
+  margin-top: 20px;
+  color: #007bff;
+}
