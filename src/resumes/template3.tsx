@@ -36,7 +36,6 @@ const Template3 = () => {
         </div>
       </header>
       <div className={styles.headerBottom}></div>
-
       {/* Experience */}
       <section>
         <h2 className={styles.heading}>
@@ -58,17 +57,18 @@ Developed real-time chat and notification features using WebSocket, and converte
 Designed responsive feed components with like, comment, share, and view functionality, leveraging React Query and Redux Toolkit for efficient state and data management. */}
           <ul>
             <li contentEditable={true} suppressContentEditableWarning={true}>
-              Developed real-time chat and notification features using WebSocket, and converted core
-              features (chat, notifications, feed) into reusable private NPM packages.
+              Engineered real-time chat and notification systems using WebSocket; modularized core
+              features (chat, notifications, feed) into reusable private NPM packages to streamline
+              development across projects.
             </li>
             <li contentEditable={true} suppressContentEditableWarning={true}>
-              Built and optimized scalable Next.js applications with a strong focus on performance,
-              modular architecture, and code splitting, reducing bundle size by 30% through
-              optimized code splitting and lazy loading.
+              Built and optimized high-performance Next.js applications with modular architecture,
+              reducing bundle size by 30% through strategic code splitting and lazy loading.
             </li>
             <li contentEditable={true} suppressContentEditableWarning={true}>
-              Designed responsive feed components with like, comment, share, and view functionality,
-              leveraging React Query and Redux Toolkit for efficient state and data management
+              Developed responsive, interactive feed components with like, comment, share, and view
+              features, utilizing React Query and Redux Toolkit for robust state and data
+              management.
             </li>
           </ul>
         </div>
@@ -81,28 +81,26 @@ Designed responsive feed components with like, comment, share, and view function
             </span>
             <p className="job-dates">July 2023 – Sep 2023</p>
           </div>
+
           <ul>
             <li contentEditable={true} suppressContentEditableWarning={true}>
-              Daily responsibilities included design and developing user Interface as a full‑stack
-              developer.
+              Developed responsive UI components using React.js, HTML, and CSS for multiple web
+              applications.
             </li>
             <li contentEditable={true} suppressContentEditableWarning={true}>
-              <strong>React.js & Git Collaboration:</strong> Led front‑end development for multiple
-              projects using React.js, HTML, and CSS, leveraging Git for version control and team
-              collaboration.
+              Contributed to team projects using Git for version control and collaborative
+              development.
             </li>
             <li contentEditable={true} suppressContentEditableWarning={true}>
-              <strong>Responsive Web Design:</strong> Developed mobile‑first designs to enhance user
-              experience across devices.
+              Created mobile-first layouts to ensure consistent user experience across all screen
+              sizes.
             </li>
             <li contentEditable={true} suppressContentEditableWarning={true}>
-              <strong>Agile Workflow:</strong> Worked in sprints using Jira, effectively managing
-              tasks and deliverables.
+              Worked in Agile sprints with Jira to track progress, manage tasks, and meet deadlines.
             </li>
           </ul>
         </div>
       </section>
-
       {/* Projects */}
       <section>
         <h2 className={styles.heading}>
@@ -112,17 +110,17 @@ Designed responsive feed components with like, comment, share, and view function
         <div>
           <h3>
             <a href="https://github.com/mohitrajputt/codeial">
-              Codial — <i>Full Stack</i>
+              Codial — <i>Full Stack Social Media Platform</i>
             </a>
           </h3>
           <ul>
             <li contentEditable={true} suppressContentEditableWarning={true}>
-              <strong>Social Media Platform:</strong> Developed a React‑based social networking
-              platform featuring OAuth login, real‑time chat, and a responsive user interface.
+              Built a React-based social platform with OAuth login, real-time chat, and a fully
+              responsive UI.
             </li>
             <li contentEditable={true} suppressContentEditableWarning={true}>
-              <strong>Interactive Features:</strong> Implemented features like posting, commenting,
-              and friend‑adding to foster user engagement and social interaction.
+              Implemented interactive features including post creation, comments, and friend
+              requests to drive engagement.
             </li>
           </ul>
         </div>
@@ -130,41 +128,44 @@ Designed responsive feed components with like, comment, share, and view function
         <div style={{ marginTop: "1rem" }}>
           <h3>
             <a href="https://mohitrajputt.github.io/Busy_Buy/">
-              Busy Buy — <i>Front End</i>
+              Busy Buy — <i>Frontend E-commerce Application</i>
             </a>
           </h3>
           <ul>
             <li contentEditable={true} suppressContentEditableWarning={true}>
-              <strong>E‑commerce Platform:</strong> Developed a full‑stack e‑commerce application
-              with dynamic routing, authentication, and Firestore integration using React.js and
-              Firebase.
+              Developed a fully responsive e-commerce interface using React.js with dynamic routing
+              and component-based architecture.
             </li>
             <li contentEditable={true} suppressContentEditableWarning={true}>
-              <strong>CRUD Operations:</strong> Built robust CRUD functionality to handle user data,
-              products, and orders, achieving a high score of 490/500 from Coding Ninjas.
+              Integrated Firebase Authentication and Firestore to manage secure user login, product
+              data, and real-time order updates.
+            </li>
+            <li contentEditable={true} suppressContentEditableWarning={true}>
+              Implemented complete CRUD operations for users, products, and orders; project scored
+              490/500 from Coding Ninjas for UI and functionality.
             </li>
           </ul>
         </div>
       </section>
-
       {/* Skills */}
+
       <section>
         <h2>Technical Skills</h2>
         <ul>
           <li contentEditable={true} suppressContentEditableWarning={true}>
-            <strong>Programming Language:</strong> Javascript | Typescript | C | C++ | Python |
-            jQuery
+            <strong>Languages:</strong> JavaScript, TypeScript, Python, C, C++, jQuery
           </li>
           <li contentEditable={true} suppressContentEditableWarning={true}>
-            <strong>Technologies:</strong> React | Next | Angular | Node | Express | MongoDB | Git
+            <strong>Frontend:</strong>React, Next.js, Angular, HTML, CSS
           </li>
           <li contentEditable={true} suppressContentEditableWarning={true}>
-            <strong>Tools & Platforms</strong> Firebase | AWS | Jenkins | Postman | Bitbucket | Jira
-            | Zoho
+            <strong>Backend & DB: </strong>Node.js, Express, MongoDB, Firebase
+          </li>
+          <li contentEditable={true} suppressContentEditableWarning={true}>
+            <strong>Tools: </strong>Git, AWS, Jenkins, Postman, Bitbucket, Jira, Zoho
           </li>
         </ul>
       </section>
-
       {/* Education */}
       <section>
         <h2 className={styles.heading}>
@@ -173,7 +174,7 @@ Designed responsive feed components with like, comment, share, and view function
         <div>
           <div className={styles["flex-between"]} style={{ marginTop: "1rem" }}>
             <strong>Dr. A.P.J. Abdul Kalam Technical University, Lucknow India</strong>
-            <p className="job-dates">Dec 2020 – July 2024</p>
+            <p className="job-dates">December 2020 – July 2024</p>
           </div>
           <ul>
             <li contentEditable={true} suppressContentEditableWarning={true}>
