@@ -6,7 +6,7 @@ import Template2 from "./resumes/template2";
 import Template3 from "./resumes/template3";
 
 function App() {
-  const [activeTemplate, setTemplate] = useState("template1");
+  const [activeTemplate, setTemplate] = useState("template3");
   const downloadPDF = () => {
     const element = document.getElementById("resume");
     const opt = {
@@ -39,9 +39,9 @@ function App() {
             id="resume"
             className={`resume-template  ${activeTemplate != "template1" ? "border-none" : "none"}`}
           >
+            {!!(activeTemplate == "template3") && <Template3 />}
             {!!(activeTemplate == "template1") && <Template1 />}
             {!!(activeTemplate == "template2") && <Template2 />}
-            {!!(activeTemplate == "template3") && <Template3 />}
           </div>
           <button className="download-btn" onClick={downloadPDF}>
             Download
